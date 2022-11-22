@@ -5,6 +5,7 @@ class LineItemsControllerTest < ActionDispatch::IntegrationTest
     @line_item = line_items(:one)
   end
 
+
   test "should get index" do
     get line_items_url
     assert_response :success
